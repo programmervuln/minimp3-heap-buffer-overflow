@@ -24,3 +24,7 @@ Files in this repository
 crash-4e5d953857bf8d8ee81b4678da65e5cff741e350 — malformed MP3 PoC binary
 minimp3_final_asan_log.txt — full raw AddressSanitizer crash log
 asan_crash_screenshot.png — screenshot of ASan crash summary
+
+
+md5sum of crash-4e5d953857bf8d8ee81b4678da65e5cff741e350 is
+5017a2ed28096d1be8b7926a4d406db5 
