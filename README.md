@@ -29,6 +29,13 @@ asan_crash_screenshot.png — screenshot of ASan crash summary
 md5sum of crash-4e5d953857bf8d8ee81b4678da65e5cff741e350 is
 5017a2ed28096d1be8b7926a4d406db5
 
+## Files in this repository
+1. [crash-4e5d953857bf8d8ee81b4678da65e5cff741e350](./crash-4e5d953857bf8d8ee81b4678da65e5cff741e350) — malformed MP3 PoC binary
+2. [linenumberminimp3.txt.txt](./linenumberminimp3.txt.txt) — full raw AddressSanitizer crash log
+3. [minimp3heap1.png](./minimp3heap1.png) — ASan crash screenshot 1
+4. [minimp3heap2.png](./minimp3heap2.png) — ASan crash screenshot 2
+5. [minimp3heap3.png](./minimp3heap3.png) — ASan crash screenshot 3
+6. [minimp3heap4.png](./minimp3heap4.png) — ASan crash screenshot 4
 
 Asan crash log is as follows: (also in attached files)
 ASAN_SYMBOLIZER_PATH=$(which llvm-symbolizer) ./fuzz_iterate ./crash-4e5d953857bf8d8ee81b4678da65e5cff741e350 2>&1 > minimp3_cve_symbolized.txt
